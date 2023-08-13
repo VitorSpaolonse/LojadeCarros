@@ -1,0 +1,660 @@
+body {
+  background-color: lightgrey;
+  font-family: "Calibri", Times, serif;
+}
+/***** CONFIGURAÇÃO DO CONTAINER ****/
+
+#container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/***** FIM CONFIGURAÇÃO DO CONTAINER ****/
+/***** CONFIGURAÇÃO DO TOPO ****/
+#topo-site {
+  width: 100%;
+  height: 25vh;
+  float: left;
+  background-color: #206ca6;
+}
+/***** FIM DA CONFIGURAÇÃO DO TOPO ****/
+/***** CONFIGURAÇÃO DO LOGO DO SITE ****/
+#logo {
+  width: 10vh;
+  height: 5vh;
+  float: left;
+  margin-left: 11vh;
+  margin-top: 5vh;
+}
+/***** FIM DA CONFIGURAÇÃO DO LOGO DO SITE ****/
+/***** CONFIGURAÇÃO DA REDE SOCIAIS ****/
+#rede-sociais {
+  width: 20vh;
+  height: 5vh;
+  float: right;
+  margin-right: 11vh;
+  margin-top: 9vh;
+  padding-bottom: 1%;
+}
+/***** FIM DA CONFIGURAÇÃO DA REDE SOCIAIS ****/
+/***** CONFIGURAÇÃO DO MENU DO SITE ****/
+.menu_simple {
+  width: 100%;
+  height: 8vh;
+  float: left;
+  margin-top: 1.5vh;
+  background-color: #022a4f;
+}
+.menu_simple ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.menu_simple ul li {
+  display: inline;
+}
+.menu_simple ul li a {
+  float: left;
+  margin-left: 6%;
+  text-decoration: none;
+  color: white;
+  padding: 3vh;
+  margin-left: 10vh;
+}
+.menu_simple ul li a:visited {
+  color: white;
+}
+.menu_simple ul li a:hover {
+  color: white;
+  background-color: #206ca6;
+}
+/***** FIM DA CONFIGURAÇÃO DO MENU DO SITE ****/
+/***** CONFIGURAÇÃO DO SLIDE DO SITE ****/
+#slide {
+  background-color: red;
+  margin-top: 5vh;
+  float: left;
+}
+
+/***** FIM DA CONFIGURAÇÃO DO SLIDE DO SITE ****/
+
+/*------------------------------------------------------------------------------------------------------/*
+
+   /***** CONFIGURAÇÃO DA CAIXA CONTEUDO ****/
+.caixa-conteudo {
+  background-color: #206ca6;
+  width: 25%;
+  height: auto;
+  float: left;
+  margin-left: 11vh;
+  margin-top: 10vh;
+  margin-bottom: 11vh;
+}
+.caixa-conteudo h3 {
+  color: white;
+  margin-left: 15%;
+}
+.caixa-conteudo ul {
+  list-style: none;
+  float: left;
+  color: white;
+  margin-top: -3vh;
+  margin-left: 1.3vh;
+}
+.caixa-conteudo ul li {
+  margin-top: 2vh;
+}
+.caixa-conteudo li a {
+  text-decoration: none;
+  margin-right: 10vh;
+  color: white;
+}
+/***** FIM CONFIGURAÇÃO DA CAIXA CONTEUDO ****/
+
+/*------------------------------------------------------------------------------------------------------------------------/*
+
+   /***** CONFIGURAÇÃO DO RODAPE DO SITE ****/
+#rodape-site {
+  width: 100%;
+
+  height: auto;
+  float: left;
+  background-color: #022a4f;
+  margin-top: 1vh;
+}
+
+#autor-site {
+  width: 100%;
+  padding-bottom: 2vh;
+  height: auto;
+  background-color: #206ca6;
+  float: left;
+  text-align: center;
+  padding-top: 2vh;
+  color: white;
+}
+
+#sobre {
+  width: 100%;
+  height: auto;
+  background-color: lightgray;
+  float: left;
+}
+#foto-sobre {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  width: 35vh;
+  height: 35vh;
+  float: right;
+  margin-right: 10vh;
+  padding-top: 10vh;
+}
+#texto-sobre {
+  margin: 0 0 20vh;
+  width: 60vh;
+  height: auto;
+  float: left;
+  margin-left: 10vh;
+  padding-top: 10vh;
+}
+
+/***** FIM CONFIGURAÇÃO DO RODAPE DO SITE ****/
+
+/****************************************************************************************************************
+/*************************************************************************************************************************
+/**************************************************************************************************************
+   /*****media QUERY ABENOADO DE DEUS*/
+@media (max-width: 1366px) {
+  #sobre {
+    width: 100%;
+    height: auto;
+    background-color: lightgray;
+    float: left;
+  }
+  #foto-sobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 35vh;
+    height: 35vh;
+    float: right;
+    margin-right: 10vh;
+    padding-top: 10vh;
+  }
+  #texto-sobre {
+    margin: 0vh;
+    width: 40vh;
+    height: auto;
+    float: left;
+    margin-left: 10vh;
+    padding-top: 10vh;
+  }
+}
+
+@media (max-width: 1240px) {
+    .menu_simple ul li a {
+      width: auto;
+      height: auto;
+      float: left;
+      margin-left: 6%;
+      text-decoration: none;
+      color: white;
+      padding: 3vh;
+      margin-left: 10vh;
+  }
+}
+
+
+@media (max-width: 1241px) {
+  .menu_simple ul li a {
+    width: auto;
+    height: auto;
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 3vh;
+    margin-left: 5vh;
+  }
+  #sobre {
+    width: 100%;
+    height: auto;
+    background-color: lightgray;
+    float: left;
+  }
+  #foto-sobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 35vh;
+    height: 35vh;
+    float: right;
+    margin-right: 10vh;
+    padding-top: 10vh;
+  }
+  #texto-sobre {
+    margin: 0vh;
+    width: 20vh;
+    height: auto;
+    float: left;
+    margin-left: 10vh;
+    padding-top: 5vh;
+  }
+}
+@media (max-width: 1009) {
+  .menu_simple ul li a {
+    width: auto;
+    height: auto;
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    margin-left: 0;
+  }
+}
+
+  
+
+@media (max-width: 946px) {
+ 
+
+  .menu_simple ul {
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+
+  .menu_simple ul li a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 3%;
+    margin-left: 0px;
+  }
+
+  .caixa-conteudo ul {
+    list-style: none;
+    float: left;
+    color: white;
+    margin-top: -3vh;
+    margin-left: 1vh;
+  }
+  .caixa-conteudo ul li {
+    margin-top: 2vh;
+  }
+  .caixa-conteudo li a {
+    text-decoration: none;
+    margin-right: 10vh;
+    color: white;
+  }
+}
+
+@media (max-width: 870px) {
+  #sobre {
+    width: 100%;
+    height: auto;
+    background-color: lightgray;
+    float: left;
+  }
+  #foto-sobre {
+    width: 35vh;
+    height: 35vh;
+    float: left;
+    padding-top: 10vh;
+    margin-left: 20vh;
+  
+  }
+  #texto-sobre p {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 50vh;
+    height: auto;
+    float: left;
+  }
+
+}
+
+@media (max-width: 820px) {
+  #container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+  }
+  /***** FIM CONFIGURAÇÃO DO CONTAINER ****/
+  /***** CONFIGURAÇÃO DO TOPO ****/
+  #topo-site {
+    width: 100%;
+    height: 17vh;
+    float: left;
+    background-color: #206ca6;
+  }
+  /***** FIM DA CONFIGURAÇÃO DO TOPO ****/
+  /***** CONFIGURAÇÃO DO LOGO DO SITE ****/
+  #logo {
+    width: 5vh;
+    height: 2.5vh;
+    float: left;
+    margin-left: 5.5vh;
+    margin-top: 2.5vh;
+  }
+  /***** FIM DA CONFIGURAÇÃO DO LOGO DO SITE ****/
+  /***** CONFIGURAÇÃO DA REDE SOCIAIS ****/
+  #rede-sociais {
+    width: 10vh;
+    height: 2.5vh;
+    float: right;
+    margin-right: 5.5vh;
+    margin-top: 4.5vh;
+    padding-bottom: 0.5%;
+  }
+  /***** FIM DA CONFIGURAÇÃO DA REDE SOCIAIS ****/
+  /***** CONFIGURAÇÃO DO MENU DO SITE ****/
+  .menu_simple {
+    width: 100%;
+    height: 4vh;
+    float: left;
+    margin-top: 5.6vh;
+    background-color: #022a4f;
+  }
+  .menu_simple ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+  .menu_simple ul li {
+    display: inline;
+  }
+  .menu_simple ul li a {
+    float: left;
+    margin-left: 3%;
+    text-decoration: none;
+    color: white;
+    padding: 1.5vh;
+    margin-left: 5vh;
+  }
+  .menu_simple ul li a:visited {
+    color: white;
+  }
+  .menu_simple ul li a:hover {
+    color: white;
+    background-color: #206ca6;
+  }
+  /*****************************************************************************************************************/
+  /***** FIM DA CONFIGURAÇÃO DO MENU DO SITE ****/
+
+  /***** CONFIGURAÇÃO DO SLIDE DO SITE ****/
+  #slide {
+    background-color: red;
+    margin-top: 5vh;
+    float: left;
+  }
+  /***** FIM DA CONFIGURAÇÃO DO SLIDE DO SITE ****/
+
+  /*------------------------------------------------------------------------------------------------------/*
+     
+        /***** CONFIGURAÇÃO DA CAIXA CONTEUDO ****/
+  .caixa-conteudo {
+    background-color: #206ca6;
+    width: 20vh;
+    height: 25vh;
+    float: left;
+    margin-left: 5.5vh;
+    margin-top: 5vh;
+    margin-bottom: 5.5vh;
+  }
+
+  /*titulo das caixas*/
+
+  .caixa-conteudo h3 {
+    color: white;
+    margin-left: 7.5%;
+  }
+
+  /*caixa de texto do texto*/
+  .caixa-conteudo ul {
+    list-style: none;
+    float: left;
+    color: white;
+    margin-top: 1vh;
+    margin-right: 2vh;
+    margin-left: -3vh;
+  }
+
+  .caixa-conteudo ul li {
+    margin-top: 1vh;
+  }
+
+  /*texto da caixa*/
+  .caixa-conteudo li a {
+    text-decoration: none;
+    margin-right: 2vh;
+    color: white;
+  }
+
+  /***** FIM CONFIGURAÇÃO DA CAIXA CONTEUDO ****/
+
+  /*------------------------------------------------------------------------------------------------------------------------/*
+     
+        /***** CONFIGURAÇÃO DO RODAPE DO SITE ****/
+  #rodape-site {
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: #022a4f;
+    margin-top: 8vh;
+  }
+
+  #autor-site {
+    width: 100%;
+    padding-bottom: 1vh;
+    height: auto;
+    background-color: #206ca6;
+    float: left;
+    text-align: center;
+    padding-top: 1vh;
+    color: white;
+  }
+
+  /***** FIM CONFIGURAÇÃO DO RODAPE DO SITE ****/
+  /***** CONFIGURAÇÃO DA DIV SOBRE ****/
+  #sobre {
+    width: 100%;
+    height: auto;
+    background-color: lightgray;
+    float: left;
+  }
+  #foto-sobre {
+    width: 35vh;
+    height: 35vh;
+    float: left;
+    padding-top: 10vh;
+    margin-left: 6vh;
+  
+  }
+  #texto-sobre p {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 20vh;
+    height: auto;
+    float: left;
+
+  }
+
+  /***** FIM CONFIGURAÇÃO DO SOBRE ****/
+}
+
+@media (max-width: 769px) {
+  .menu_simple {
+    width: 100%;
+    height: 4vh;
+    float: left;
+    margin-top: 5.6vh;
+    background-color: #022a4f;
+  }
+  .menu_simple ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+  .menu_simple ul li {
+    display: inline;
+  }
+  .menu_simple ul li a {
+    float: left;
+    margin-left: 3%;
+    text-decoration: none;
+    color: white;
+    padding: 1.5vh;
+    margin-left: 1vh;
+  }
+  .menu_simple ul li a:visited {
+    color: white;
+  }
+  .menu_simple ul li a:hover {
+    color: white;
+    background-color: #206ca6;
+  }
+}
+
+
+@media (max-width: 610px) {
+  #logo {
+    width: 0.5vh;
+    height: 0.5vh;
+    float: left;
+    margin-left: 1vh;
+  }
+  /***** FIM DA CONFIGURAÇÃO DO LOGO DO SITE ****/
+  /***** CONFIGURAÇÃO DA REDE SOCIAIS ****/
+  #rede-sociais {
+    width: 0.5vh;
+    height: 0.5vh;
+    float: right;
+    padding-bottom: 4vh;
+  }
+}
+@media (max-width: 566px) {
+  #logo {
+    width: 0.3vh;
+    height: 0.3vh;
+    float: left;
+    margin-left: 0.5vh;
+  }
+
+  .menu_simple ul {
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+
+  .menu_simple ul li a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    margin-left: 1vh;
+  }
+
+  /***** CONFIGURAÇÃO DA CAIXA CONTEUDO ****/
+  .caixa-conteudo {
+    flex-direction: column;
+    background-color: #206ca6;
+    width: 20vh;
+    height: 25vh;
+    float: left;
+    margin-left: 5vh;
+  }
+
+  /*titulo das caixas*/
+
+  .caixa-conteudo h3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: 7.5%;
+  }
+
+  /*caixa de texto do texto*/
+  .caixa-conteudo ul {
+    list-style: none;
+    float: left;
+    color: white;
+    margin-top: 1vh;
+    margin-right: 2vh;
+    margin-left: -3vh;
+  }
+
+  .caixa-conteudo ul li {
+    margin-top: 1vh;
+  }
+
+  /*texto da caixa*/
+  .caixa-conteudo li a {
+    display: flex;
+    margin-left: 1%;
+    align-items: left;
+    text-decoration: none;
+    margin-right: 2vh;
+    color: white;
+  }
+
+  /***** FIM CONFIGURAÇÃO DA CAIXA CONTEUDO ****/
+}
+
+@media (max-width: 400px) {
+  #logo {
+    width: 1vh;
+    height: 0, 625vh;
+    float: left;
+    margin-left: 2.75vh;
+    margin-top: 1.25vh;
+    padding-top: 3vh;
+  }
+  /***** FIM DA CONFIGURAÇÃO DO LOGO DO SITE ****/
+  /***** CONFIGURAÇÃO DA REDE SOCIAIS ****/
+  #rede-sociais {
+    width: 5vh;
+    height: 1.25vh;
+    float: right;
+    margin-right: 2.75vh;
+    margin-top: 2.25vh;
+    padding-bottom: 10%;
+  }
+
+  .caixa-conteudo {
+    background-color: #206ca6;
+    width: 25%;
+    height: 20%;
+    float: left;
+    margin-left: 40vh;
+    margin-top: 10vh;
+    margin-bottom: 11vh;
+  }
+  .caixa-conteudo h3 {
+    color: red;
+    margin-left: 2vh;
+  }
+  .caixa-conteudo ul {
+    list-style: none;
+    float: left;
+    color: white;
+    margin-top: -3vh;
+    margin-left: 1.3vh;
+  }
+  .caixa-conteudo ul li {
+    margin-top: 2vh;
+  }
+  .caixa-conteudo li a {
+    text-decoration: none;
+    float: left;
+    color: white;
+  }
+  /***** FIM CONFIGURAÇÃO DA CAIXA CONTEUDO ****/
+}
